@@ -22,6 +22,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04 Typescript中的函数  函数的定义 可选参数  默认参数   剩余参数  函数重载  箭头函数" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -32,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582445528722</updated>
-      <workItem from="1582445529861" duration="2238000" />
+      <workItem from="1582445529861" duration="2603000" />
     </task>
     <servers />
   </component>
