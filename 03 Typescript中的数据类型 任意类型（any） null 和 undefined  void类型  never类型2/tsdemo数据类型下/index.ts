@@ -1,17 +1,10 @@
 /*
 1、vscode配置自动编译1
-
     1.第一步   tsc --inti 生成tsconfig.json   改 "outDir": "./js",
-
-
     2、第二步 任务 - 运行任务  监视tsconfig.json
 
-
 2、typeScript中的数据类型
-
     typescript中为了使编写的代码更规范，更有利于维护，增加了类型校验，在typescript中主要给我们提供了以下数据类型
-
-
         布尔类型（boolean）
         数字类型（number）
         字符串类型(string)
@@ -107,8 +100,6 @@ enum 枚举名{
    console.log(f);
 */
 
-
-
 /*
 000010
 -1
@@ -135,19 +126,12 @@ console.log(e);
     // num='str';
     // num=true;
     // console.log(num)
-
-
-
     //任意类型的用处
-
-
     var oBox:any=document.getElementById('box');
     oBox.style.color='red';
 
 
 // null 和 undefined  其他（never类型）数据类型的子类型
-
-
 
 // var num:number;
 // console.log(num)  //输出：undefined   报错
@@ -163,20 +147,9 @@ console.log(e);
 // var num:number | undefined;
 // console.log(num);
 
-
-
-
-
-
 // var num:null;
 
-
 // num=null;
-
-
-
-
-
 
 //一个元素可能是 number类型 可能是null 可能是undefined
 
@@ -185,13 +158,7 @@ var num:number | null | undefined;
 num=1234;
 console.log(num)
 
-
-
-
-
 // void类型 :typescript中的void表示没有任何类型，一般用于定义方法的时候方法没有返回值。
-
-    
 
 //es5的定义方法
     // function run(){
@@ -201,8 +168,6 @@ console.log(num)
 
     // run();
 
-
-
 //表示方法没有返回任何类型
 
     //正确写法
@@ -210,7 +175,6 @@ console.log(num)
 //     console.log('run')
 // }
 // run();
-
 
         //错误写法
         //     function run():undefined{
@@ -222,14 +186,10 @@ console.log(num)
 //正确写法
        /*
        function run():number{
-
            return 123;
         }
-
         run();
        */
-
-
 
 // never类型:是其他类型 （包括 null 和 undefined）的子类型，代表从不会出现的值。
 
@@ -239,30 +199,14 @@ console.log(num)
    /*
    
     var a:undefined;
-
     a=undefined;
 
-
-
     var b:null;
-
     b=null;
-
-
    */
-
-
 
 var a:never;
 //    a=123; //错误的写法
 a=(()=>{
     throw new Error('错误');
 })()
-
-
-
-
-
-
-
-
